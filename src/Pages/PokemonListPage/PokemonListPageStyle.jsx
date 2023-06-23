@@ -5,18 +5,22 @@ export const PokemonListPageContainer = styled.main`
     flex-direction: column;
     background-color: #5E5E5E;
     color: white;
-    height: 80vh;
     width: 100vw;
     h1 {
         margin-left: 2rem;
+        margin-top: 1rem;
     }
   `
 export const PokemonListContainer = styled.div`
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
-   margin-left: 10rem;
-   margin-right: 10rem;
+   justify-content: space-evenly;
+   column-gap: 5rem;
+   row-gap: 5rem;
+   width: 100%;
+   margin-top: 2rem;
+   background-color: #5E5E5E;
 `
 
 
