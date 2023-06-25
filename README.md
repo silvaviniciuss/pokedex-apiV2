@@ -4,15 +4,15 @@ Pokedex é uma enciclopédia do mundo Pokemon.
 
 ## Link Surge
     https://pokedex-apiv2.surge.sh/
-- 
+
 
 ## Imagens Projeto
 <p> Home Page </p>
-<img src="../../assets/Img/ProjectImages/Home.png"/>
+<img src="src/assets/Img/ProjectImages/Home.png"/>
 <p> Pokedex Page </p>
-<img src="../../assets/Img/ProjectImages/PokedexPage.png"/>
+<img src="src/assets/Img/ProjectImages/PokedexPage.png"/>
 <p> Detail Page </p>
-<img src="../../assets/Img/ProjectImages/DetailPage.png"/>
+<img src="src/assets/Img/ProjectImages/DetailPage.png"/>
 
 ## Recursos Utilizados
 
