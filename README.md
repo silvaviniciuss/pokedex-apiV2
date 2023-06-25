@@ -3,7 +3,7 @@
 Pokedex é uma enciclopédia do mundo Pokemon.
 
 ## Link Surge
-    <a [Pokedex API](https://pokedex-apiv2.surge.sh/)></a>
+    https://pokedex-apiv2.surge.sh/
 
 
 ## Imagens Projeto
