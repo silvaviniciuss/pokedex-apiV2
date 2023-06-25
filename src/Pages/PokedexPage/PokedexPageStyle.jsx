@@ -11,5 +11,8 @@ export const PokedexPageStyle = styled.main`
     h1 {
         margin-left: 2rem;
         margin-top: 1rem;
+        @media screen and (max-width: 1200px){
+          font-size: 1.5rem;
+        }
     }
   `

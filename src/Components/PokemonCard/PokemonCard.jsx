@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useEffect, useState } from "react";
 import {
     CardButton,
     PokeballImage,
@@ -16,6 +16,8 @@ import { pokemonCardColor } from "../../Utils/PokemonCardColor"
 import { globalContext } from "../../Contexts/globalContext";
 import { useLocation, useNavigate } from "react-router-dom"
 import { goToPokemonDetail } from "../../Router/Coordinator";
+// import axios from "axios";
+// import { PokemonMegaEvolution } from "../PokemonMegaEvolution/PokemonMegaEvolution";
 
 export const PokemonCard = ({ pokemon }) => {
 
@@ -44,8 +46,9 @@ export const PokemonCard = ({ pokemon }) => {
             </CardButton>
         }
     }
-
+    
     return (
+        
         <PokemonCardContainer
             cardColor={pokemonCardColor(
                 pokemon.data.types[0].type.name
@@ -71,6 +74,7 @@ export const PokemonCard = ({ pokemon }) => {
                 >Detalhes</PokemonDetail>
             </div>
             <div>
+                {/* {returnSpecies()} */}
                 <PokemonCardImage src={
                     pokemon.data.sprites.other["official-artwork"].front_default
                 } />
