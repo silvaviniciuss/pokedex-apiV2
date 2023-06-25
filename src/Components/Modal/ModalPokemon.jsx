@@ -15,7 +15,7 @@ export const ModalPokemon = () => {
     return (
         <>
             <Modal 
-            size={"lg"} 
+            size={"md"}
             isOpen={isOpen} 
             onClose={()=> onClose(false)}>
                 <ModalOverlay />

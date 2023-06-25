@@ -30,12 +30,10 @@ import {
     Tbody,
     Tr,
     Th,
-    Td,
-    TableCaption,
     TableContainer,
-    Tooltip,
 } from "@chakra-ui/react"
 import { PokeMove } from "../../Components/PokeMove/PokeMove"
+import { PokemonMegaEvolution } from "../../Components/PokemonMegaEvolution/PokemonMegaEvolution"
 
 
 export const PokemonDetailPage = () => {
@@ -70,6 +68,8 @@ export const PokemonDetailPage = () => {
     }
 
     let sumBaseStats = 0
+
+    
 
     return (
         <PokemonDetailStyle >
@@ -120,6 +120,9 @@ export const PokemonDetailPage = () => {
                         </StatsContainer>
                     </BaseStats>
                     <div>
+                        <PokemonMegaEvolution
+                        species = {pokemonDetail.species.url}
+                        />
                         <PokemonImage src={
                             pokemonDetail.sprites.other["official-artwork"].front_default
                         } />
@@ -147,7 +150,7 @@ export const PokemonDetailPage = () => {
                         <MoveContainer>
                             <h1>Moves:</h1>
                             <TableContainer
-                            style={{zIndex:"2", overflowY:"scroll"}}
+                            style={{zIndex:"2", overflowY:"scroll", borderRadius:"30px"}}
                             >
                                 <Table
                                     variant='striped' colorScheme="gray">

@@ -9,11 +9,11 @@ export const pokemonCardColor = (type) => {
         case "electric":
             return "#fc3";
         case "fairy":
-            return "#EC8FE6";
+            return "#e9e";
         case "fighting":
             return "#CE4069";
         case "fire":
-            return "#f42";
+            return "#EAAB7D";
         case "flying":
             return "#6892B0";
         case "ghost":
